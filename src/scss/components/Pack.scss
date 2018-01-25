@@ -1,0 +1,109 @@
+@charset 'utf-8';
+@import 'foundation';
+@import 'motion-ui';
+@import '../animations';
+@import '../fonts';
+@import '../settings';
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-reveal;
+@include foundation-table;
+
+.wrap-btn-request {
+  text-align: center;
+  button {
+    width: 420px;
+    height: 420px;
+    border-radius: 100%;
+    background: $primary;
+    cursor: pointer;
+    outline: none;
+    color: white;
+    transition: all 0.25s
+  }
+  i {
+    display: block;
+    font-size: 200px;
+    margin-bottom: 50px;
+  }
+  span {
+    font-family: 'Open Sans Light';
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.51);
+    font-size: 22px;
+    position: relative;
+    top: -30px;
+  }
+}
+
+
+.wrap-instructions {
+  .title-instructions {
+    font-family: 'Open Sans Bold';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+  }
+  ul {
+    li {
+      display: inline-block;
+      h2 {
+        font-family: 'Open Sans Bold';
+        font-weight: bold;
+        font-size: 35px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        text-transform: uppercase;
+      }
+      i {
+        font-size: 34px;
+        color: white;
+        background: $primary;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        padding-top: 8px;
+        border-radius: 3px;
+      }
+      p {
+        font-family: 'Open Sans Regular';
+        font-weight: 300;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+
+.wrap-popup-info {
+  padding-left: 20px;
+  .title-info {
+    display: inline;
+    margin-left: 17px;
+    font-size: 40px;
+    color: orange;
+  }
+  p {
+    font-size: 18px;
+    font-family: 'Open Sans Regular';
+    font-size: 300;
+    line-height: 1.5;
+    color: #333;
+    padding-top: 0px;
+    margin-top: 6px;
+    padding-left: 12px;
+  }
+  .icon-stop {
+    background: orange;
+    font-size: 60px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    color: white;
+    margin-top: -20px;
+    border-radius: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+.wrap-module-list {
+  border-bottom: 1px solid #c5c5c5;
+  padding-left: 10px;
+  .module-name {
+    font-size: 27px;
+    display: block;
+    padding: 0px;
+    font-weight: bold;
+    margin: 0px;
+    color: #333;  
+  }
+  .module-id {
+    font-size: 16px; 
+    margin: 0px;
+  }
+}

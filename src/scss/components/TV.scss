@@ -1,0 +1,53 @@
+@charset 'utf-8';
+@import 'foundation';
+@import 'motion-ui';
+@import '../settings';
+@import '../animations';
+@import '../fonts';
+@include foundation-global-styles;
+@include foundation-grid;
+@include foundation-reveal;
+
+body {
+  background: #fff;
+}
+
+.wrap-tokens {
+  margin-left: 0px;
+  padding-left: 0px;
+  li {
+    list-style: none;
+    padding: 0px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: white;
+    i {
+      display: block;
+      font-size: 80px;
+      color: $primary;
+      @extend .rotate-bell;
+    }
+    .token-name {
+      font-size: 60px;
+    }
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.slick-slide {
+  width: 400px;
+}
+
+.slick-prev,
+.slick-next {
+  color: black;
+  display: none;
+}
